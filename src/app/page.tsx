@@ -69,7 +69,7 @@ export default function Login() {
         setAlertSeverity("success");
         setAlertOpen(true); // Show success alert
         setTimeout(() => {
-          router.push("/dashboard"); // Redirect to dashboard after 2 seconds
+          router.push("/beranda"); // Redirect to dashboard after 2 seconds
         }, 2000);
       }
     } catch (error: unknown) {

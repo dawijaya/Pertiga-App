@@ -69,13 +69,13 @@ const Navbar = () => {
         {/* Logo */}
         <div className="text-xl font-bold">
           <Link href="/">
-            <img className="w-1/3 " src={logo.src} alt="logo" />
+            <img className="w-1/2 " src={logo.src} alt="logo" />
           </Link>
         </div>
 
         {/* Desktop Menu */}
         {!isMobile && (
-          <ul className="flex space-x-6">
+          <ul className="flex font-mons font-bold text-2xl space-x-6">
             <li
               className={`hover:border-b   hover:border-accent ${
                 activeMenu === "beranda" ? "border-b-4  border-accent" : ""
@@ -90,13 +90,13 @@ const Navbar = () => {
               onClick={() => handleMenuClick("tentang-kami")}>
               <Link href="/tentang-kami">Tentang Kami</Link>
             </li>
-            <li
+            {/* <li
               className={`hover:border-b hover:border-accent ${
                 activeMenu === "visi-misi" ? "border-b-4 border-accent" : ""
               }`}
               onClick={() => handleMenuClick("visi-misi")}>
               <Link href="/visi-misi">Visi dan Misi</Link>
-            </li>
+            </li> */}
             <li
               className={`hover:border-b hover:border-accent ${
                 activeMenu === "produk" ? "border-b-4 border-accent" : ""
@@ -104,7 +104,7 @@ const Navbar = () => {
               onClick={() => handleMenuClick("produk")}>
               <Link href="/produk">Produk</Link>
             </li>
-            <li
+            {/* <li
               className={`hover:border-b hover:border-accent ${
                 activeMenu === "tawaran-kami" ? "border-b-4 border-accent" : ""
               }`}
@@ -124,7 +124,7 @@ const Navbar = () => {
               }`}
               onClick={() => handleMenuClick("kontak-kami")}>
               <Link href="/kontak-kami">Kontak Kami</Link>
-            </li>
+            </li> */}
           </ul>
         )}
 
@@ -152,13 +152,13 @@ const Navbar = () => {
                   onClick={() => handleMenuClick("tentang-kami")}>
                   <Link href="/tentang-kami">Tentang Kami</Link>
                 </li>
-                <li
+                {/* <li
                   className={`block px-4 py-2 hover:bg-accent ${
                     activeMenu === "visi-misi" ? "bg-accent rounded-md" : ""
                   }`}
                   onClick={() => handleMenuClick("visi-misi")}>
                   <Link href="/visi-misi">Visi dan Misi</Link>
-                </li>
+                </li> */}
                 <li
                   className={`block px-4 py-2 hover:bg-accent ${
                     activeMenu === "produk" ? "bg-accent rounded-md" : ""
@@ -166,7 +166,7 @@ const Navbar = () => {
                   onClick={() => handleMenuClick("produk")}>
                   <Link href="/produk">Produk</Link>
                 </li>
-                <li
+                {/* <li
                   className={`block px-4 py-2 hover:bg-accent ${
                     activeMenu === "tawaran-kami" ? "bg-accent rounded-md" : ""
                   }`}
@@ -186,7 +186,7 @@ const Navbar = () => {
                   }`}
                   onClick={() => handleMenuClick("kontak-kami")}>
                   <Link href="/kontak-kami">Kontak Kami</Link>
-                </li>
+                </li> */}
               </ul>
             )}
           </div>

@@ -59,8 +59,8 @@ export default function Beranda() {
           </h1>
           <Link
             href={"/produk"}
-            className="flex items-center justify-center mt-10">
-            <button className="bg-primary font-pops rounded-xl cursor-pointer hover:bg-secondary border-netral transition-all p-5 text-xl text-accent">
+            className="flex items-center mb-5 justify-center mt-10">
+            <button className="bg-primary font-pops rounded-xl cursor-pointer hover:shadow-accent border-netral transition-all p-5 text-xl text-textprimary">
               Belanja Sekarang 🛒
             </button>
           </Link>

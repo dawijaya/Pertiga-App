@@ -75,7 +75,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         {!isMobile && (
-          <ul className="flex font-mons font-bold text-2xl space-x-6">
+          <ul className="flex font-mons text-textprimary  font-bold text-xl space-x-6">
             <li
               className={`hover:border-b   hover:border-accent ${
                 activeMenu === "beranda" ? "border-b-4  border-accent" : ""

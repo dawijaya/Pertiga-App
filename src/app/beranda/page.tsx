@@ -52,7 +52,7 @@ export default function Beranda() {
           <div className="flex items-center mt-64 justify-center">
             <img className="w-1/5" src={kangkung.src} alt="kangkung" />
           </div>
-          <h1 className="font-mons text-white text-center font-bold text-3xl mt-10 px-[35rem]">
+          <h1 className="font-mons text-white text-center font-bold text-3xl mt-10 px-[26rem]">
             Sumber <span className="text-accent">Sayuran Segar</span> dan
             <span className="text-accent"> Ikan Berkualitas</span> untuk Hidup
             Sehat Anda

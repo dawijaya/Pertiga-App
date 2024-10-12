@@ -67,7 +67,7 @@ export default function Beranda() {
 
           {/* Logo WA di sudut kanan bawah */}
           <div className="fixed bottom-10 right-10">
-            <Link href="https://wa.me/6283115363789">
+            <Link href="https://wa.me/6282213871167">
               <img className="w-12 h-12" src={wa.src} alt="wa" />
             </Link>
           </div>

@@ -338,7 +338,7 @@ const salesData: Sale[] = [
 const ProdukList: React.FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [searchTerm, setSearchTerm] = useState(""); // Tambahkan state untuk pencarian
-  const waNumber = "6283115363789"; // Nomor WhatsApp tujuan
+  const waNumber = "6282213871167"; // Nomor WhatsApp tujuan
 
   const handleWhatsAppLink = (productName: string) => {
     const message = `Saya tertarik dengan ${productName}`;
